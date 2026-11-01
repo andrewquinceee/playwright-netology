@@ -15,7 +15,7 @@ export default defineConfig({
 
   use: {
     // Снимок экрана, если тест упал
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
     trace: 'on-first-retry',
   },
 
